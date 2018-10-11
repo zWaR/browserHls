@@ -15,5 +15,5 @@ The project started as an attempt to stream HLS from the browser. However, it tu
 In practice this means, that ffmpeg will fail when transcoding the recorded blobs. It also means, that even if the blobs would be just uploaded to a remote location in an attempt to be transcoded there, this would fail as well.
 
 ## Purpose
-* Demonstration of a limitation of MediaStream Recording API
+* Demonstration of a limitation in MediaStream Recording API
 * Archive
