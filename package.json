@@ -1,0 +1,25 @@
+{
+  "name": "browser-hls",
+  "version": "0.0.1",
+  "description": "Create HLS stream from a browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "build": "webpack -p",
+    "start": "webpack-dev-server -d --content-base ./"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ffmpeg.js": "3.1.9001",
+    "recordrtc": "5.4.8"
+  },
+  "devDependencies": {
+    "@types/webpack-env": "1.13.6",
+    "ts-loader": "4.4.2",
+    "typescript": "3.0.1",
+    "webpack": "4.16.5",
+    "webpack-cli": "3.1.0",
+    "webpack-dev-server": "3.1.5"
+  }
+}

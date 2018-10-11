@@ -1,0 +1,6 @@
+node_modules/*
+index.bak
+.vscode/*
+v8-compile-cache-0
+app.js*
+bundle.js
