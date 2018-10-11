@@ -38,7 +38,6 @@ export class Ffmpeg implements IFfmpeg {
           );
           let transcodedFilename = memfs.name;
           delete message.data;
-          message = '';
           uploader.upload(transcodedBlob, transcodedFilename);
           worker.terminate();
           break;
