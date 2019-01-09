@@ -2,7 +2,6 @@
 import { Ffmpeg } from './ffmpeg';
 
 const recordRtc: any = require('recordrtc');
-const fileSaver: any = require('file-saver');
 
 export class Recorder {
 
